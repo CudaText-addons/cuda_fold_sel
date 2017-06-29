@@ -1,0 +1,11 @@
+- fix: fold block, add n lines above by Enter--
+fold restored for old indexes,
+must restore for changed indexes for same lines
+
+- todo: if block folded/unfolded, must restore same folded state
+in on_change_slow
+
+- todo: must save in PROP_TAG several ranges, now only one 'foldsel:%d,%d'
+
+- must improve ATSynedit to keep fold-ranges if they have tag>0
+- must add to Cud API fold range's tag
