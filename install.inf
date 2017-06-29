@@ -1,0 +1,16 @@
+[info]
+title=Fold Selection
+desc=Command "Fold selection" to fold any selected multi-line block
+type=cudatext-plugin
+subdir=cuda_fold_sel
+homepage=
+
+[item1]
+section=events
+events=on_change_slow
+
+[item2]
+section=commands
+caption=Fold Selection
+method=fold_sel
+
